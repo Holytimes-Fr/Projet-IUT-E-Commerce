@@ -4,7 +4,8 @@
 		<link href="style/bootstrap.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<header>
-		<ul>
+		<br><h1>E-Commerce</h1></br>
+		<ul class="menu">
 			<li><a href="index.php">Accueil</a></li>
 			<li><a href="index.php">Informatique</a></li>
 			<li><a href="index.php">Jardin</a></li>
