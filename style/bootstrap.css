@@ -6071,6 +6071,14 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none;
 }
+.menu{
+  margin-top: 0;
+
+}
+.menu li a{
+  padding: 12px 80px;
+  background-color: grey;
+}
 .menu li{
   display: inline;
 }
