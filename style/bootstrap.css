@@ -6071,6 +6071,9 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none;
 }
+.footer{
+  background-color: grey;
+}
 .menu{
   margin-top: 0;
 
