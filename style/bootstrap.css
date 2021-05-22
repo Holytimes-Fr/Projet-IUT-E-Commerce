@@ -6071,24 +6071,38 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none;
 }
+.connexion a{
+  background-color: grey;
+  padding: 15px 80px;
+  float: right;
+  color: white;
+}
+.sidebar{
+  background-color: grey;
+  float: right;
+  width: 380px;
+  height: 30px;
+  color:white;
+}
 .footer{
   background-color: grey;
 }
-.fotter h5{
-  color:white;
-}
 .menu{
-  margin-top: 0;
+  margin-top: 0px;
+}
+.menu li{
+display: inline;
 
 }
 .menu li a{
-  padding: 12px 80px;
-  background-color: grey;
-}
-.menu li{
-  display: inline;
-}
 
+  padding: 15px 80px;
+  background-color:grey;
+  color: white;
+}
+.menu li a:hover{
+  background-color: #4F5F76;
+}
 .clearfix::after {
   display: block;
   clear: both;
