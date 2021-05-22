@@ -6071,6 +6071,9 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none;
 }
+.menu li{
+  display: inline;
+}
 
 .clearfix::after {
   display: block;
