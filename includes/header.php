@@ -1,17 +1,39 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link href="style/bootstrap.css" type="text/css" rel="stylesheet"/>
-	</head>
-	<header>
-		<h1 class="connexion"><a href="admin/index.php">Connexion</a></h1>
-		<br><h1>E-Commerce</h1></br>
-		<ul class="menu">
-			<li><a href="index.php">Accueil</a></li>
-			<li><a href="index.php">Informatique</a></li>
-			<li><a href="index.php">Jardin</a></li>
-			<li><a href="index.php">Meuble</a></li>
-			<li><a href="index.php">A propos</a></li>
-		</ul>
-	</header>
-</html>
+<header class="header">
+  <link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
+  <a href="https://projet.holytimes.eu/" class="logo">E-LIKE</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="index.php">Accueil</a></li>
+    <li><a href="boutique.php">Boutique</a></li>
+    <li><a href="informatique.php">Informatique</a></li>
+    <li><a href="jardin.php">Jardin</a></li>
+    <li><a href="cuisine.php">Cuisine</a></li>
+    <li><a href="a-propos.php">A propos</a></li>
+    <li><a href="admin/connexion.html"class="connexion">Connexion</a></li>
+  </ul>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

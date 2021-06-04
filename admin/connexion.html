@@ -1,0 +1,20 @@
+<!-- 
+Les balises <form> sert à dire que c'est un formulaire
+on lui demande de faire fonctionner la page connexion.php une fois le bouton "Connexion" cliqué
+on lui dit également que c'est un formulaire de type "POST"
+Les balises <input> sont les champs de formulaire
+type="text" sera du texte
+type="password" sera des petits points noir (texte caché)
+type="submit" sera un bouton pour valider le formulaire
+name="nom de l'input" sert à le reconnaitre une fois le bouton submit cliqué, pour le code PHP
+ -->
+
+<link rel="stylesheet" type="text/css" href="../style/login.css">
+  <div class="wrapper">
+    <form class="form-signin" action="connexion.php" method="post">   
+          <h2 class="form-signin-heading">Administration</h2>
+          <input type="text" class="form-control" name="pseudo" placeholder="Identifiant" value=""  />
+          <input type="password" class="form-control" name="mdp" placeholder="Mot de passe" value=""/>      
+          <button class="btn btn-lg btn-primary btn-block" name="connexion" value="Connexion" type="submit">Connexion</button> 
+    </form>
+  </div>
