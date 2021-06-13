@@ -12,9 +12,9 @@ Pied de page du site avec 'a propos'
           <div class="col-xs-6 col-md-3">
             <h6>Catégorie</h6>
             <ul class="footer-links">
-              <li><a href="https://projet.holytimes.eu">Meubles</a></li>
-              <li><a href="https://projet.holytimes.eu">Jardin</a></li>
-              <li><a href="https://projet.holytimes.eu">Informatique</a></li>
+              <li><a href="https://projet.holytimes.eu/cuisine.php">Meubles</a></li>
+              <li><a href="https://projet.holytimes.eu/jardin.php">Jardin</a></li>
+              <li><a href="https://projet.holytimes.eu/informatique.php">Informatique</a></li>
             </ul>
           </div>
 
