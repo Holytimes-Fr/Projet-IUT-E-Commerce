@@ -1,0 +1,21 @@
+.para h3{
+  color : grey;
+  position: relative; 
+  margin-left: 20px;
+  text-decoration: underline; 
+}
+.para p{
+  position: relative; 
+  margin-left: 20px;  
+}
+
+.cadre {
+  border: solid 1px grey;
+  border-radius: 2px;
+  display: inline-block;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  width: 1300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

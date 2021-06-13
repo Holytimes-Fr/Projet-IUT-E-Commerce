@@ -1,4 +1,6 @@
-
+<!-- 
+Génére une fenêtre qui donne les dernier articles qui ont été ajouté
+ -->
     <div class="card card-4">
         <p>Articles recommandés :</p>
         <br1></br1>

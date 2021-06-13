@@ -1,5 +1,5 @@
 <?php
-
+//Permet de suprimmer un utilisteurs
 $objetPdo = new PDO('mysql:host=45.140.165.147;dbname=holytime_IUT','holytime_IUT','tprzo.40');
 
 //Préparation requete

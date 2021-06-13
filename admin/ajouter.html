@@ -1,8 +1,13 @@
+<!-- 
+Formulaire pour ajouter un articles , les catégorie sont définie par des chiffres
+ -->
 <html>
 	<body>
+	    <meta charset="UTF-8">
 	    <link href="style/bootstrap.css" type="text/css" rel="stylesheet"/>
 		<h1>Ajouter un articles</h1>
 		<form method="post" action="ajouter.php" >
+		    <h1 class="Retour"><a href="admin-index.php">Retour</a></h1>
 			<br>
 			<label>Nom</label> <input type="text" name="nom">
 			<br>
@@ -10,9 +15,10 @@
 			<br>
 			<label>Prix</label> <input type="text" name="prix">
 			<br>
-			<input type="file" name="photo">
+			<label>Categorie</label> <input type="text" name="categorie">
 			<br>
 			<input type="submit" value="Ajouter">
+			<p>(Pour la catégorie rentré un chiffre: 1=informatique,2:jardin et 3:cuisines)</p>
 		</form>
 	</body> 
 </html>

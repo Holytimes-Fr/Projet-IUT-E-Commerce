@@ -1,3 +1,6 @@
+<!-- 
+Menu de navigation à travers le site
+ -->
 <header class="header">
   <link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
   <a href="https://projet.holytimes.eu/" class="logo">E-LIKE</a>
@@ -10,7 +13,7 @@
     <li><a href="jardin.php">Jardin</a></li>
     <li><a href="cuisine.php">Cuisine</a></li>
     <li><a href="a-propos.php">A propos</a></li>
-    <li><a href="admin/connexion.html"class="connexion">Connexion</a></li>
+    <li><a href="client/connexion.html"class="connexion">Connexion</a></li>
   </ul>
 </header>
 

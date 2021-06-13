@@ -1,5 +1,6 @@
 <?php
 require('sql.php');
+//Permet via un formulaire de modifier les articles directement.
 
 if (!isset($_POST['nom'])){ 
 	$articles = getDetailsArticles();?>

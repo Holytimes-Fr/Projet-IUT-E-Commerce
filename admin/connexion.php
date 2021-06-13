@@ -1,8 +1,6 @@
 <?php
-/*
-Page: connexion.php
-*/
-session_start(); // à mettre tout en haut du fichier .php, cette fonction propre à PHP servira à maintenir la $_SESSION
+
+session_start(); 
 if(isset($_POST['connexion'])) { // si le bouton "Connexion" est appuyé
     // on vérifie que le champ "Pseudo" n'est pas vide
     // empty vérifie à la fois si le champ est vide et si le champ existe belle et bien (is set)
@@ -23,14 +21,12 @@ if(isset($_POST['connexion'])) { // si le bouton "Connexion" est appuyé
                 echo "Erreur de connexion à la base de données.";
             } else {
                 // on fait maintenant la requête dans la base de données pour rechercher si ces données existe et correspondent:
-                $Requete = mysqli_query($mysqli,"SELECT 'identifiant','mdp' FROM utilisateurs WHERE identifiant = '".$Pseudo."' AND mdp = '".$MotDePasse."'");//si vous avez enregistré le mot de passe en md5() il vous suffira de faire la vérification en mettant mdp = '".md5($MotDePasse)."' au lieu de mdp = '".$MotDePasse."'
-                // si il y a un résultat, mysqli_num_rows() nous donnera alors 1
-                // si mysqli_num_rows() retourne 0 c'est qu'il a trouvé aucun résultat
+                $Requete = mysqli_query($mysqli,"SELECT 'identifiant','mdp' FROM utilisateurs WHERE identifiant = '".$Pseudo."' AND mdp = '".$MotDePasse."'");
                 if(mysqli_num_rows($Requete) == 0) {
                     echo "Le pseudo ou le mot de passe est incorrect, le compte n'a pas été trouvé.";
                 } else {
                     // on ouvre la session avec $_SESSION:
-                    $_SESSION['pseudo'] = $Pseudo; // la session peut être appelée différemment et son contenu aussi peut être autre chose que le pseudo
+                    $_SESSION['pseudo'] = $Pseudo; 
                     header('Location: admin-index.php');
                 }
             }

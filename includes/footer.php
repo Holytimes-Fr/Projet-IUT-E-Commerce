@@ -1,9 +1,12 @@
+<!-- 
+Pied de page du site avec 'a propos'
+ -->
     <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>A PROPOS</h6>
-            <p class="text-justify">On aime vendre lol.</p>
+            <p class="text-justify">L'entreprise E-LIKE existe dans le monde du e-commerce depuis le mois de mai, elle à pour but de vous proposez les meilleur produit au meilleur prix.Notre slogan : "Le meilleur prix pour vous" E-Like est une branche de Holytimes.</p>
           </div>
 
           <div class="col-xs-6 col-md-3">

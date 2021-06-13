@@ -1,5 +1,6 @@
 <?php
 require('sql.php');
+//Permet via un formulaire de modifier un utilisateur
 
 if (!isset($_POST['identifiant'])){ 
 	$utilisateurs = getDetailsUtilisateurs();?>

@@ -7,8 +7,8 @@
     $nom = $_POST["nom"];
     $marque = $_POST["marque"];
     $prix = $_POST["prix"];
-    //$img = $_FILES["img"]["name"];
-    //$img_tmp = $_FILES['img']['tmp_name'];
+    $categorie = $_POST["categorie"];
+
     
     try{
         //On se connecte à la BDD
@@ -17,11 +17,12 @@
     
         //On insère les données reçues
         $sth = $dbco->prepare("
-            INSERT INTO produit_secoours(id, Nom, Marque, Prix)
-            VALUES(0,:nom, :marque, :prix)");
+            INSERT INTO produit_secoours(id, Nom, Marque, Prix, Categorie)
+            VALUES(0,:nom, :marque, :prix, :categorie)");
         $sth->bindParam(':nom',$nom);
         $sth->bindParam(':marque',$marque);
         $sth->bindParam(':prix',$prix);
+        $sth->bindParam(':categorie',$categorie);
         $sth->execute();
         echo'Enregistrement valider';
     }

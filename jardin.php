@@ -1,13 +1,14 @@
 <?php
-
+//affiche menu navigation
 require_once('includes/header.php');
 echo"<br/><br/><br/><br></br>";
+//catégorie JArdin
 ?>
 <html>
     <link rel="stylesheet" href="style/articles.css">
     <div class="para">
-    <h3>BOUTIQUE</h3>
-    <p>Tu te trouves dans la boutique ! Tu rouveras ici tout les produits confondue que nous proposons  !
+    <h3>JARDIN</h3>
+    <p>Tu te trouves daas la catégorie jardin...Tu retrouveras tout le matériels necessaire pour embellir ton jardin !
     </p>
     <br>
    
@@ -15,8 +16,8 @@ echo"<br/><br/><br/><br></br>";
         	    
         $objetPdo = new PDO('mysql:host=45.140.165.147;dbname=holytime_IUT','holytime_IUT','tprzo.40');
         
-        //Préparation requete
-        $pdoStat = $objetPdo->prepare('SELECT * FROM produit_secoours ORDER BY Nom');
+        //Préparation requete (elle ne va afficher que la catégorie Jardin)
+        $pdoStat = $objetPdo->prepare('SELECT * FROM `produit_secoours` WHERE Categorie = 2');
         
         //éxécution reqête
         $executeIsOk = $pdoStat->execute();

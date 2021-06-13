@@ -1,4 +1,5 @@
 <?php
+//valeur
     $serveur = "45.140.165.147";
     $dbname = "holytime_IUT";
     $user = "holytime_IUT";
@@ -7,8 +8,6 @@
     $mail = $_POST["mail"];
     $identifiant = $_POST["identifiant"];
     $mdp = $_POST["mdp"];
-    //$img = $_FILES["img"]["name"];
-    //$img_tmp = $_FILES['img']['tmp_name'];
     
     try{
         //On se connecte à la BDD
